@@ -1,5 +1,7 @@
 # QRZ.com ADIF Export  without subscription based on PyQrzComLogbookDump
 
+This work is derived from <https://github.com/lasek0/PyQrzComLogbookDump> and makes it easier to obtain the `xf_session` variable.
+
 Export your QRZ.com logbook to an ADIF file without copying the `xf_session` cookie by hand.
 
 `qrz_login_export.py` opens a browser window at <https://logbook.qrz.com/>, waits for you to log in, captures the `xf_session` cookie automatically and then runs `qrzdump.py` to download every QSO.
