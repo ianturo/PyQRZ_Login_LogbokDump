@@ -56,3 +56,5 @@ python qrzdump.py <xf_session> <output.adif>
 - **Non-ASCII characters:** the launcher sets `PYTHONUTF8=1` so names with accents are written correctly on Windows. Set it yourself if you run `qrzdump.py` directly.
 - **Privacy:** your session cookie is only used locally, to talk to qrz.com. Treat it like a password and don't share it. The ADIF file contains your log data.
 - **Fragility:** `qrzdump.py` scrapes QRZ's HTML, so changes to the QRZ site can break it.
+
+![GitHub Stats](https://ghstats.dev/api/card?username=ianturo)
